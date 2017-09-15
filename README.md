@@ -4,6 +4,6 @@
 Repo for class assignments.
 
 ## Class Schedule
- [x] JUnit
- [ ] Continuous integration
- [ ] Git
+ - [x] JUnit
+ - [ ] Continuous integration
+ - [ ] Git
