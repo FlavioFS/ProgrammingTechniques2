@@ -11,7 +11,7 @@ public class OrdinaryAccountTest {
 
 	@Test
 	public void testDebit() {
-		AbstractAccount acc = new OrdinaryAccount("id");
+		AbstractAccount acc = new OrdinaryAccount("123A");
 		try {
 			acc.credit(50);
 			assertEquals("Wrong balance (credit).", 50, acc.getBalance(), 0.0);
@@ -26,7 +26,7 @@ public class OrdinaryAccountTest {
 
 	@Test
 	public void testCredit() {
-		AbstractAccount acc = new OrdinaryAccount("id");
+		AbstractAccount acc = new OrdinaryAccount("123A");
 		try {
 			acc.credit(50);
 			assertEquals("Wrong balance.", 50, acc.getBalance(), 0.0);

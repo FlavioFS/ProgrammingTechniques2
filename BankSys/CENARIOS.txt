@@ -32,3 +32,9 @@ que envolvidas na causa do bug de cada cenário.
 5) Realize uma operação de transferência da conta simples nº 123A 
 para a conta poupança nº 123C no valor de R$ 10,00
 5.1) Veja se o saldo nas duas contas está correto
+
+erros encontrados:
+1) Ordinary account.debit 
+	[L14] this.balance < amount  ->  this.balance >= amount
+5) BankControler.doTransfer
+	[L95] fromNumber -> toNumber
