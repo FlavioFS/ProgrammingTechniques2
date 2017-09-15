@@ -1,9 +1,9 @@
-# ProgrammingTechniques2 :repeat_one:
+# :repeat_one: Programming Techniques 2
 
 ## Description
 Repo for class assignments.
 
-### Practicing techniques like:
+## Class Schedule
  - JUnit
  - Continuous integration
  - Git
