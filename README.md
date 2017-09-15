@@ -1,2 +1,9 @@
-# ProgrammingTechniques2
-Practicing techniques like: JUnit, continuous integration...
+# ProgrammingTechniques2 :repeat_one:
+
+## Description
+Repo for class assignments.
+
+### Practicing techniques like:
+ - JUnit
+ - Continuous integration
+ - Git
