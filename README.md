@@ -5,5 +5,7 @@ Repo for class assignments.
 
 ## Class Schedule
  - [x] JUnit
+ - [x] Maven
+ - [ ] Gradle
  - [ ] Continuous integration
  - [ ] Git
