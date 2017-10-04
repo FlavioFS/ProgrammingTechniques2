@@ -14,7 +14,7 @@ public class TaxAccountTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		acc = new TaxAccount("123C");
+		acc = new TaxAccount("123B");
 	}
 	
 	@Test
