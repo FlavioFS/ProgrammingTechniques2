@@ -2,7 +2,6 @@ package br.ufc.dc.tp2.flaviofs.bank.persistence;
 
 import static org.junit.Assert.*;
 
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -34,11 +33,26 @@ public class AccountVectorTest {
 		
 		try {
 			av.create(ordinary);
+		} catch (AccountCreationException e) {
+			fail("Setup error (Ordinary creation).");
+		};
+		
+		try {
 			av.create(savings);
+		} catch (AccountCreationException e) {
+			fail("Setup error (Savings creation).");
+		};
+		
+		try {
 			av.create(special);
+		} catch (AccountCreationException e) {
+			fail("Setup error (Special creation).");
+		};
+		
+		try {
 			av.create(tax);
 		} catch (AccountCreationException e) {
-			e.printStackTrace();
+			fail("Setup error (Tax creation).");
 		};
 	}
 

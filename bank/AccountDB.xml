@@ -1,0 +1,15 @@
+<vector>
+  <br.ufc.dc.tp2.flaviofs.bank.account.OrdinaryAccount>
+    <number>ord1</number>
+    <balance>0.0</balance>
+  </br.ufc.dc.tp2.flaviofs.bank.account.OrdinaryAccount>
+  <br.ufc.dc.tp2.flaviofs.bank.account.SavingsAccount>
+    <number>sav1</number>
+    <balance>0.0</balance>
+  </br.ufc.dc.tp2.flaviofs.bank.account.SavingsAccount>
+  <br.ufc.dc.tp2.flaviofs.bank.account.SpecialAccount>
+    <number>spc1</number>
+    <balance>0.0</balance>
+    <bonus>0.0</bonus>
+  </br.ufc.dc.tp2.flaviofs.bank.account.SpecialAccount>
+</vector>
